@@ -1,0 +1,17 @@
+{
+  "providers": [
+    "awscloudformation"
+  ],
+  "projectName": "musicalbuminfo",
+  "version": "3.1",
+  "frontend": "javascript",
+  "javascript": {
+    "framework": "react",
+    "config": {
+      "SourceDir": "C:\\Users\\kraus\\Documents\\engineering design\\music-album-info",
+      "DistributionDir": "C:\\Users\\kraus\\Documents\\engineering design\\music-album-info",
+      "BuildCommand": "npm.cmd run-script build",
+      "StartCommand": "npm.cmd run-script start"
+    }
+  }
+}
