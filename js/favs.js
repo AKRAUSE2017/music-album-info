@@ -1,1 +1,1 @@
-console.log(Auth.currentAuthenticatedUser());
+console.log(getCurrentLoggedInSession());
