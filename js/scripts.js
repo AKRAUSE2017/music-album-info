@@ -72,10 +72,4 @@ function averageColor(albumImage) {
         .catch(e => {
             console.log(e);
         });
-    /*var img = new Image();
-    img.src = albumImage;
-    img.crossOrigin = "Anonymous";
-    var demo = new FastAverageColor();
-    var myColor = demo.getColor(img);
-    console.log(myColor.hex);*/
 }
