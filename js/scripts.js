@@ -19,7 +19,7 @@ function searchAlbum(inputArtist, inputAlbum){
     var request = new XMLHttpRequest();
 
     var myKey = "45674465b4b2e65311b563669f931ebc";
-    var url = "http://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key="+ myKey +
+    var url = "https://ws.audioscrobbler.com/2.0/?method=album.getinfo&api_key="+ myKey +
     "&artist="+ inputArtist +"&album=" + inputAlbum + "&format=json";
 
     request.open('GET', url);
